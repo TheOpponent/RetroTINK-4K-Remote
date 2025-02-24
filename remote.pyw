@@ -118,7 +118,7 @@ class Frame(wx.Frame):
         self.phase_btn.Bind(wx.EVT_BUTTON, self.on_phase_button)
         self.safe_btn = wx.Button(main_panel, label="SAFE", size=wx.Size(80, 23))
         self.safe_btn.Bind(wx.EVT_BUTTON, self.on_safe_button)
-        self.buffer_btn = wx.Button(main_panel, label="BUFFER", size=wx.Size(79, 23))
+        self.buffer_btn = wx.Button(main_panel, label="T. BUFFER", size=wx.Size(79, 23))
         self.buffer_btn.Bind(wx.EVT_BUTTON, self.on_buffer_button)
         self.res4k_btn = wx.Button(main_panel, label="4K", size=wx.Size(59, 23))
         self.res4k_btn.Bind(wx.EVT_BUTTON, self.on_res4k_button)
